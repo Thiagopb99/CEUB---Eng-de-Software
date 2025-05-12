@@ -1,74 +1,17 @@
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Repositório de Estudos</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #000000;
-      color: #ecf0f1;
-      padding: 30px;
-    }
+# 📚 Repositório de Estudos
 
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background-color: #1e1e1e;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-      padding: 40px;
-    }
+Este é um repositório criado com a finalidade de armazenar os trabalhos realizados nas aulas durante o curso de Engenharia de Software!
 
-    h1 {
-      font-size: 1.8rem;
-      color: #e74c3c;
-      margin-bottom: 20px;
-    }
+## 📂 Matérias
 
-    h2 {
-      font-size: 1.4rem;
-      color: #ffffff;
-      margin-top: 30px;
-    }
+- 🔗 [Banco de Dados](https://github.com/Thiagopb99/CEUB---Eng-de-Software/tree/main/Banco%20de%20Dados%20I)
+- 🔗 [Introdução à Computação](https://github.com/Thiagopb99/CEUB---Eng-de-Software/tree/main/Introdu%C3%A7%C3%A3o%20a%20computa%C3%A7%C3%A3o)
+- 🔗 [Lógica de Programação](https://github.com/Thiagopb99/CEUB---Eng-de-Software/tree/main/Logica%20de%20Programa%C3%A7%C3%A3o)
+- 🔗 [Engenharia de Software](https://github.com/Thiagopb99/CEUB---Eng-de-Software/tree/main/Engenharia%20de%20Software)
+- 🔗 [Fundamentos da Engenharia](https://github.com/Thiagopb99/CEUB---Eng-de-Software/tree/main/Fundamentos%20da%20Engenharia)
+- 🔗 [Bootcamp I](https://github.com/Thiagopb99/CEUB---Eng-de-Software/tree/main/Bootcamp%20I)
 
-    .button-list {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      margin-top: 20px;
-    }
+---
 
-    .link-button {
-      text-decoration: none;
-      background-color: #e74c3c;
-      color: white;
-      padding: 12px 20px;
-      border-radius: 8px;
-      text-align: center;
-      font-size: 1rem;
-      transition: background-color 0.3s;
-    }
-
-    .link-button:hover {
-      background-color: #c0392b;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Repositório de Estudos</h1>
-    <p>Este é um repositório criado com a finalidade de armazenar os trabalhos realizados nas aulas durante o curso!</p>
-    <h2>Separado de acordo com as matérias cursadas:</h2>
-    <div class="button-list">
-      <a class="link-button" href="https://github.com/Thiagopb99/CEUB---Eng-de-Software/tree/main/Banco%20de%20Dados%20I" target="_blank">Banco de Dados</a>
-      <a class="link-button" href="https://github.com/Thiagopb99/CEUB---Eng-de-Software/tree/main/Introdu%C3%A7%C3%A3o%20a%20computa%C3%A7%C3%A3o" target="_blank">Introdução à Computação</a>
-      <a class="link-button" href="https://github.com/Thiagopb99/CEUB---Eng-de-Software/tree/main/Logica%20de%20Programa%C3%A7%C3%A3o" target="_blank">Lógica de Programação</a>
-      <a class="link-button" href="https://github.com/Thiagopb99/CEUB---Eng-de-Software/tree/main/Engenharia%20de%20Software" target="_blank">Engenharia de Software</a>
-      <a class="link-button" href="https://github.com/Thiagopb99/CEUB---Eng-de-Software/tree/main/Fundamentos%20da%20Engenharia" target="_blank">Fundamentos da Engenharia</a>
-      <a class="link-button" href="https://github.com/Thiagopb99/CEUB---Eng-de-Software/tree/main/Bootcamp%20I" target="_blank">Bootcamp</a>
-    </div>
-  </div>
-</body>
-</html>
+👨‍💻 Desenvolvido por Thiago  
+🌐 Acesse também a [versão visual do repositório no GitHub Pages](https://thiagopb99.github.io/CEUB---Eng-de-Software/)
