@@ -1,0 +1,61 @@
+# Nome do arquivo de entrada
+arquivo_nome = "lista_de_preço.txt"
+
+# Listas para armazenar os dados
+nomes = []
+codigos_barras = []
+precos = []
+
+# Abrir e ler o arquivo
+with open(arquivo_nome, "r", encoding="utf-8") as arquivo:
+    for linha in arquivo:
+        dados = linha.strip().split(";")  # Divide os dados pelo ";"
+
+        if len(dados) == 3:  # Garantir que há 3 colunas
+            nomes.append(dados[0])  # Nome do produto
+            codigos_barras.append(dados[1])  # Código de barras
+            precos.append(float(dados[2]))  # Preço convertido para float
+
+# Exibir os dados carregados
+print("\nLista de Produtos:")
+for i in range(len(nomes)):
+    print(f"Produto: {nomes[i]}, Código de Barras: {codigos_barras[i]}, Preço: R$ {precos[i]:.2f}")
+
+# Menu principal
+def compra():
+    valor_total = 0  # Inicializa o valor total da compra
+    
+    while True:
+        item = input("\nDigite o código do produto (ou 0 para finalizar): ")
+
+        if item == "0":
+            print("\nPedido Finalizado!")
+            print(f"Valor total da compra: R$ {valor_total:.2f}")
+            break  # Sai do loop
+
+        elif item in codigos_barras:  # Verifica se o código existe
+            index_item = codigos_barras.index(item)  # Encontra o índice do código
+            valor_total += precos[index_item]  # Soma o preço do item ao total
+            print(f"Item adicionado! Total: R$ {valor_total:.2f}")
+
+        else:
+            print("Código incorreto! Tente novamente.")
+
+# Menu principal
+while True:
+    print("\n1 - Nova Compra")
+    print("2 - Finalizar Sistema")
+    
+    try:
+        menu = int(input("Escolha uma opção: "))  # Converte a entrada para número
+
+        if menu == 1:
+            compra()
+        elif menu == 2:
+            print("Sistema finalizado.")
+            break  # Sai do loop e encerra o programa
+        else:
+            print("Opção inválida! Escolha 1 ou 2.")
+    
+    except ValueError:
+        print("Entrada inválida! Digite um número válido.")
